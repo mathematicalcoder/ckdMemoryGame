@@ -1,0 +1,169 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom:100px;
+    text-align:justify;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+    width: 90%;
+    }
+}
+
+p {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    color: midnightblue;
+}
+
+a {
+    color: midnightblue;
+    transition:transform .2s;
+}
+
+a:hover {
+    color: royalblue;
+    transform:skewX(1.5);
+}
+
+th, td.open, td.wrong, td.correct {
+    border: 2px solid slategray;
+    border-radius: 5px;
+    text-align: center;
+    padding:5px;
+    background-color: slategray;
+    color: white;
+}
+
+td.correct {
+    background-color: green;
+}
+
+td.wrong {
+    background-color: coral;
+}
+
+.code,
+pre,
+code {
+    font-family: ui-monospace, Menlo, Monaco, "Segoe UI Mono", "Roboto Mono",
+    "Oxygen Mono", "Ubuntu Mono", "Source Code Pro", "Fira Mono",
+    "Droid Sans Mono", "Consolas", "Courier New", monospace;
+}
+
+div.callout {
+    border: 2px solid slategray;
+    border-radius: 5px;
+    color: slategray;
+    padding: 10px;
+    overflow:auto;
+}
+
+button,
+input,
+textarea,
+table,
+td {
+    padding: 5px;
+    background-color: white;
+    border: 2px solid slategray;
+    border-radius: 5px;
+    color: slategray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:16px;
+}
+
+table {
+    border: 3px solid midnightblue;
+}
+
+table.set {
+    width: 80%;
+    float: right;
+}
+
+table.side {
+    width: 15%;
+    float: left;
+}
+
+td {
+    text-align: center;
+    height: 125px;
+    align-items: center;
+    color: black;
+    width: 15%;
+    font-size: 14px;
+}
+
+.emph {
+    font-size: 24px;
+}
+
+p.center {
+    text-align: center;
+    margin: auto;
+}
+
+button:hover {
+    background-color: slategray;
+    color: white;
+}
+
+input, textarea {
+    color: black;
+    width: 100%;
+    padding: 5px;
+}
+
+.parameter {
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    max-height:80px;
+    background-color: midnightblue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;
+}
+
+img.rwrap {
+    float:right;
+    padding:10px;
+}
+
+img.lwrap {
+    float:left;
+    padding:10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    padding: 10px;
+}
