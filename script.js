@@ -1,12 +1,29 @@
 const cards = [
-    '1', '2', '3', '4', '5',
-    '6', '7', '8', '9', '10',
-    '1', '2', '3', '4', '5',
-    '6', '7', '8', '9', '10'
-]
+    'How many stages does CKD have? (Consider 3A and 3B to be one stage.)',
+    'What is one cause of CKD that causes urine to back up into your kidneys?',
+    'Maintaining a healthy weight',
+    'Acute kidney failure',
+    'What is the gradual loss of kidney function over time?',
+    'Vesicoureteral reflex',
+    'Diabetes',
+    'Which is the sudden, reversible condition where the kidneys lose function quickly due to factors like dehydration or infection?',
+    '4',
+    '2',
+    'What is a way to reduce your risk of CKD by addressing obesity?',
+    'Which stage of CKD is considered as severe loss of kidney function, with an eGFR of 15 to 29?',
+    '5',
+    'What is a risk factor of CKD where the body can\'t absorb sugar easily?',
+    'What is one cause of CKD that causes an inflammation of the kidney\'s tubules and surrounding structures?',
+    'What is one cause of CKD that causes an inflammation of the kidney\'s filtering units?',
+    'Interstitial nephritis',
+    'Chronic kidney disease',
+    'Glomerulonephritis',
+    'Which stage of CKD is considered as a mild loss of kidney function, with an eGFR of 60 to 89?'
+];
+
 
 const pairs = [
-    [1, 11], [2, 12], [3, 13], [4, 14], [5, 15], [6, 16], [7, 17], [8, 18], [9, 19], [10, 20]
+    [1, 13], [12, 9], [2,6], [16,19], [15,17], [8,4], [14,7], [11,3], [5,18], [20,10]
 ]
 
 let open = [];
