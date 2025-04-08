@@ -63,7 +63,7 @@ for (let i = 1; i <= 20; i++) {
                 }
                 setTimeout(function(){
                     for (j of open) {
-                        document.getElementById(j).innerHTML = "Open me!";
+                        document.getElementById(j).innerHTML = `Card ${j}`;
                         document.getElementById(j).removeAttribute("class");
                     }
                     open = [];
