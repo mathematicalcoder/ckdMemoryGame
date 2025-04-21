@@ -67,7 +67,7 @@ for (let i = 1; i <= 20; i++) {
                         document.getElementById(j).removeAttribute("class");
                     }
                     open = [];
-                }, 1000);
+                }, 3000);
             }
         }
     })

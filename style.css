@@ -13,9 +13,9 @@ body {
     text-align:justify;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     body {
-    width: 90%;
+        width: 95%;
     }
 }
 
@@ -107,7 +107,7 @@ td {
     align-items: center;
     color: black;
     width: 15%;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .emph {
